@@ -96,15 +96,18 @@ class Parser(object):
 # Terminal formatting functions
 
 def fg(x, n):
-    assert(0 <= n < 10 and isinstance(n, int))
-    if not x.endswith("\x1b[m"): x += "\x1b[m"
-    return "\x1b[3%dm" % n + x
+    # assert(0 <= n < 10 and isinstance(n, int))
+    # if not x.endswith("\x1b[m"): x += "\x1b[m"
+    # return "\x1b[3%dm" % n + x
+    return x
 def bold(x):
-    if not x.endswith("\x1b[m"): x += "\x1b[m"
-    return "\x1b[1m" + x
+    # if not x.endswith("\x1b[m"): x += "\x1b[m"
+    # return "\x1b[1m" + x
+    return x
 def dim(x):
-    if not x.endswith("\x1b[m"): x += "\x1b[m"
-    return "\x1b[2m" + x
+    # if not x.endswith("\x1b[m"): x += "\x1b[m"
+    # return "\x1b[2m" + x
+    return x
 
 def genfg(n):
     globals()["fg%d" % n] = lambda x: fg(x, n)
