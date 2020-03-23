@@ -50,7 +50,7 @@ def response(flow: http.HTTPFlow):
         data = ""
         
         #Parse request
-        file_path = dir_name + "/requests/" + str(counter) + "_" + (flow.request.pretty_url).split("/")[-1]
+        file_path = dir_name + "/requests/" + f'{counter:08}' + "_" + (flow.request.pretty_url).split("/")[-1]
         with open(file_path,"wb") as f:
             f.write(flow.request.content)
         with open(file_path,"rb") as f:
@@ -59,7 +59,7 @@ def response(flow: http.HTTPFlow):
             f.write(data)
 
         #Parse response
-        file_path = dir_name + "/responses/" + str(counter) + "_" + (flow.request.pretty_url).split("/")[-1]
+        file_path = dir_name + "/responses/" + f'{counter:08}' + "_" + (flow.request.pretty_url).split("/")[-1]
         with open(file_path,"wb") as f:
             f.write(flow.response.raw_content)
         with open(file_path,"rb") as f:

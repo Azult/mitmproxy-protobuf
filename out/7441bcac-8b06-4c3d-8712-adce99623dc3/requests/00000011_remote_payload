@@ -1,0 +1,26 @@
+root:
+    [34m2[m <chunk> = [32m"CU5hlOPPqgQ3IAIqmAFlVVI1Sm9tSDJBazpBUEE5MWJIZ19jRWktcDBxYnItNVVsZ2paam5pakRyaEhLY2VpTkpxLTU0RnNHaVltVmhYcDJzd2xXNExFYWdOaWlyYjF2TldfOENZczRvaXpRVHZnajNURHdYbVBQcG92MjlqRjNEWlBKMnU4MkVaVGYwQXBsNm5ZYkZEdzYzTDYwSDBsZnoweThIUToQc1BvWUMxS0FvQ2ZHUVB6QkXapPLaShUApnIvprkgSBtb1GWg6JAcTf6SqVY="[m
+    [34m3[m <varint> = [33m0[m
+    [34m5[m <chunk> = message:
+        [34m1[m <varint> = [33m0[m
+        [34m2[m <varint> = [33m16[m
+        [34m3[m <varint> = [33m0[m
+        [34m4[m <varint> = [33m0[m
+        [34m5[m <varint> = [33m0[m
+        [34m6[m <varint> = [33m0[m
+        [34m7[m <varint> = [33m0[m
+        [34m8[m <varint> = [33m0[m
+        [34m9[m <varint> = [33m0[m
+    [34m6[m <chunk> = message:
+        [34m1[m <varint> = [33m1[m
+        [34m2[m <varint> = [33m100[m
+        [34m3[m <varint> = [33m100[m
+        [34m4[m <varint> = [33m3[m
+        [34m5[m <varint> = [33m4[m
+        [34m6[m <varint> = [33m1[m
+    [34m7[m <chunk> = message:
+        [34m3[m <varint> = [33m0[m
+        [34m5[m <varint> = [33m0[m
+        [34m6[m <varint> = [33m2[m
+    [34m8[m <varint> = [33m1[m
+    [34m10[m <chunk> = [32m"a56d7d15"[m
